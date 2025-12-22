@@ -63,5 +63,3 @@ Contributions welcome! Please see the [technical documentation](docs/technical-d
 ---
 
 **Star this repo if you find it useful!**
-
-*Demonstrates practical AI integration in financial software using modern Java development practices.*
