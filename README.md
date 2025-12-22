@@ -60,6 +60,4 @@ Java 22 • JavaFX 22.0.1 • SQLite • Maven • Machine Learning (Linear Regr
 
 Contributions welcome! Please see the [technical documentation](docs/technical-documentation.pdf) for development guidelines and architecture details.
 
----
-
 **Star this repo if you find it useful!**
