@@ -37,20 +37,6 @@ mvn clean javafx:run
 
 The app starts immediately with automatic database creation.
 
-## Complete Documentation
-
-For detailed technical information, setup instructions, AI algorithm explanations, and more:
-
-**[View Complete Technical Documentation](docs/technical-documentation.pdf)**
-
-The comprehensive documentation includes:
-- Detailed setup and installation guide
-- Complete AI algorithm explanation with mathematical foundations
-- System architecture and design patterns
-- Database schema and operations
-- Troubleshooting guide
-- Future enhancements roadmap
-- Full source code explanations
 
 ## Technologies used
 
