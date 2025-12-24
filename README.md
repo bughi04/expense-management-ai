@@ -5,45 +5,70 @@
 [![Maven](https://img.shields.io/badge/Maven-3.13.0-red.svg)](https://maven.apache.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-3.47.2.0-green.svg)](https://www.sqlite.org/)
 
-A sophisticated JavaFX expense management application featuring **AI-powered currency prediction** through machine learning algorithms. Track expenses across multiple currencies while receiving intelligent forecasts about exchange rate movements.
+A full-stack JavaFX application for expense tracking featuring **machine learning-powered currency predictions**. Built to demonstrate proficiency in Java development, GUI design, database management, and implementing ML algorithms from scratch.
+> **Note**: This project was developed with AI assistance as a learning and development tool, alongside traditional programming methods.
 
 ## Key Features
 
-- **AI Currency Predictions** - 7-day exchange rate forecasts using linear regression
-- **Multi-Currency Support** - USD, EUR, GBP, JPY, AUD, RON with automatic conversion
-- **Smart Analytics** - Category breakdowns and spending insights
-- **Local SQLite Database** - Secure local data storage
-- **Modern JavaFX Interface** - Intuitive and responsive UI
+### Core Functionality
+- **Multi-Currency Support** - Track expenses in USD, EUR, GBP, JPY, AUD, and RON with automatic conversion
+- **Category Management** - Organize expenses with custom categories
+- **Date Tracking** - Separate transaction and expense date recording
+- **Financial Reports** - Category breakdowns with spending percentages
 
-## AI System Highlights
+### AI/ML Component
+- **Currency Prediction System** - 7-day exchange rate forecasts using linear regression
+- **Custom ML Implementation** - Built from scratch without external ML libraries
+- **Historical Data Simulation** - Generates realistic 30-day market patterns
+- **Trading Recommendations** - Actionable insights based on predicted trends
 
-The application implements **machine learning from scratch** (no external ML libraries):
-- Linear regression algorithm for trend analysis
-- 30-day historical data simulation with realistic market patterns
-- 7-day future exchange rate predictions
-- Trading recommendations based on predicted movements
-- Asynchronous processing for responsive UI
+## Technical Stack
+
+- **Language**: Java 22
+- **UI Framework**: JavaFX 22.0.1
+- **Database**: SQLite 3.47.2.0
+- **Build Tool**: Maven 3.13.0
+- **Architecture**: MVC pattern with modular design
+- **APIs**: Integration with exchange rate APIs
 
 ## Quick Start
 
-**Prerequisites:** Java 22+, Maven 3.8+, Internet connection
+**Prerequisites**: Java 22+, Maven 3.8+
 
 ```bash
-# Clone and run
+# Clone the repository
 git clone https://github.com/bughi04/expense-management-ai.git
 cd expense-management-ai
+
+# Run the application
 mvn clean javafx:run
 ```
 
-The app starts immediately with automatic database creation.
+The application will automatically create the local SQLite database on first launch.
 
+## Machine Learning Implementation
 
-## Technologies used
+The prediction system demonstrates:
+- **Linear Regression Algorithm** - Implemented from scratch
+- **Statistical Analysis** - Mean calculation and variance handling
+- **Time Series Forecasting** - Trend analysis on historical data
+- **Asynchronous Processing** - Non-blocking UI updates using JavaFX Tasks
 
-Java 22 • JavaFX 22.0.1 • SQLite • Maven • Machine Learning (Linear Regression)
+## Skills Demonstrated
 
-## Contributing
+- Object-oriented programming in Java
+- JavaFX desktop application development
+- SQL database design and management
+- RESTful API integration
+- Machine learning algorithm implementation
+- Concurrent programming with JavaFX Tasks
+- Maven project management
+- MVC architectural pattern
 
-Contributions welcome! Please see the [technical documentation](docs/technical-documentation.pdf) for development guidelines and architecture details.
+## Future Enhancements
 
-**Star this repo if you find it useful!**
+- Export reports to PDF/CSV
+- Data visualization with charts
+- Budget alerts and notifications
+- Cloud database synchronization
+- Mobile companion app
