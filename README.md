@@ -6,7 +6,7 @@
 [![SQLite](https://img.shields.io/badge/SQLite-3.47.2.0-green.svg)](https://www.sqlite.org/)
 
 A full-stack JavaFX application for expense tracking featuring **machine learning-powered currency predictions**. Built to demonstrate proficiency in Java development, GUI design, database management, and implementing ML algorithms from scratch.
-> **Note**: This project was developed with AI assistance as a learning and development tool, alongside traditional programming methods.
+> **Note**: This project was designed and implemented by me, with selective use of AI tools for research, refactoring, and productivity - similar to modern IDE assistance.
 
 ## Key Features
 
